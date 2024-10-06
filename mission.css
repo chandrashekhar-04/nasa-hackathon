@@ -1,0 +1,73 @@
+body {
+    background-image: url("mission.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color:rgba(255, 255, 255, 0.207);
+    color: #f0f0f0;
+    text-align: center;
+}
+
+
+header {
+    padding: 20px;
+    background-color: #1a1a1a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #7fa275;
+    margin: 0;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.project-card {
+    background-color: #36385d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    width: 300px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+}
+
+.future {
+    background-color: #1f343e;
+    animation: pulse 2s infinite;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .project-card {
+        width: 250px;
+    }
+}
